@@ -3,9 +3,8 @@
 ---
 @charset "utf-8";
 
-// 1. IMPORT THE FONT HERE (Academic/Math Font)
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400&display=swap');
-
+// 1. IMPORT DOMINE (and Garamond as backup)
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 // Dimensions
 $max-content-width: {{ site.max_width }};
 
@@ -27,31 +26,41 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-outline.scss"
 ;
 
-// 2. APPLY THE FONT AND SIZE HERE (Must be at the very bottom)
+// 2. APPLY DOMINE FONT (Must be at the very bottom)
 body, p, li, div {
-  font-family: 'EB Garamond', serif !important;
-  font-size: 19px !important;       /* <--- This makes the text bigger */
-  line-height: 1.6 !important;      /* <--- This adds breathing room between lines */
+  font-family: 'Domine', serif !important;
+  font-size: 17px !important;       /* Reduced from 19px because Domine is naturally big */
+  line-height: 1.6 !important;
+  color: #2c2c2c !important;        /* Slightly softer black for better reading */
 }
 
-/* Headers usually need to be huge to look good in Garamond */
+/* Bold Settings - Domine has a great natural bold (700) */
+strong, b {
+  font-family: 'Domine', serif !important;
+  font-weight: 700 !important;      /* Use standard bold, 800 is not needed for Domine */
+}
+
+/* Headers - Domine looks fantastic in headers */
 h1, .post-title {
-  font-family: 'EB Garamond', serif !important;
-  font-size: 36px !important;
+  font-family: 'Domine', serif !important;
+  font-weight: 700 !important;
+  font-size: 32px !important;
 }
 
 h2 {
-  font-family: 'EB Garamond', serif !important;
-  font-size: 28px !important;
+  font-family: 'Domine', serif !important;
+  font-weight: 600 !important;
+  font-size: 26px !important;
 }
 
-h3, h4 {
-  font-family: 'EB Garamond', serif !important;
-  font-size: 24px !important;
+h3, h4, h5 {
+  font-family: 'Domine', serif !important;
+  font-weight: 600 !important;
+  font-size: 22px !important;
 }
 
-// Keep code blocks as monospace
+/* Keep code blocks standard */
 code, pre, .highlight {
   font-family: 'Courier New', monospace !important;
-  font-size: 16px !important;       /* Keep code slightly smaller */
+  font-size: 15px !important;
 }
