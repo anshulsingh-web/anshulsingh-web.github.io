@@ -24,7 +24,6 @@ pagination:
   </div>
 
   {% if site.display_tags %}
-   {% if post.layout == "post" %}
   <div class="tag-category-list">
     <ul class="p-0 m-0">
       {% for tag in site.display_tags %}
@@ -37,7 +36,6 @@ pagination:
     </ul>
   </div>
   {% endif %}
-{% endfor %}
 
   <ul class="post-list">
     {% for post in paginator.posts %}
@@ -64,9 +62,9 @@ pagination:
         <li><span class="disabled">&laquo; Prev</span></li>
       {% endif %}
       
-   <li><span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span></li>
+      <li><span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span></li>
 
-  {% if paginator.next_page %}
+      {% if paginator.next_page %}
         <li><a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a></li>
       {% else %}
         <li><span class="disabled">Next &raquo;</span></li>
