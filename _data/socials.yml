@@ -12,7 +12,7 @@
 #cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
 # dblp_url: # your DBLP profile url
 # discord_id: # your discord id (18-digit unique numerical identifier)
-email: anshulsingh2316@gmail.com # your email address
+#email: anshulsingh2316@gmail.com # your email address
 # facebook_id: # your facebook id
 # flickr_id: # your flickr id
 # github_username: # your GitHub user name
@@ -52,10 +52,20 @@ email: anshulsingh2316@gmail.com # your email address
 # x_username: # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
-custom_social: # can be any name here other than the ones already defined above
-  logo: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zm5 170.2l66.5 0 0 213.8-66.5 0 0-213.8zm71.7-67.7a38.5 38.5 0 1 1 -77 0 38.5 38.5 0 1 1 77 0zM317.9 416l0-104c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9l0 105.8-66.4 0 0-213.8 63.7 0 0 29.2 .9 0c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9l0 117.2-66.4 0z"/></svg> # can be png, svg, jpg
-  title: Linkedin
-  url: https://www.linkedin.com/in/anshul-singh-96864031b
+#custom_social: # can be any name here other than the ones already defined above
+  #logo:  # can be png, svg, jpg
+  #title: Linkedin
+  #url: https://www.linkedin.com/in/anshul-singh-96864031b
+custom_social:
+  - title: Email
+    url: mailto:anshulsingh2316@gmail.com
+    logo: https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg
 
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/anshul-singh-96864031b
+    logo: https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg
 
+  - title: ORCID
+    url: https://orcid.org/0009-0004-1175-5772
+    logo: https://upload.wikimedia.org/wikipedia/commons/0/06/ORCID_iD.svg
   
