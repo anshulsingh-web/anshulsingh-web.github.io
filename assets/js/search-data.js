@@ -30,21 +30,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "Bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blogs",
-              title: "Blogs",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-the-geometry-of-uncertainty-what-missing-data-teaches-us-about-truth",
+        },{id: "post-the-geometry-of-uncertainty-what-missing-data-teaches-us-about-truth",
         
           title: "The Geometry of Uncertainty: What Missing Data Teaches Us About Truth",
         
