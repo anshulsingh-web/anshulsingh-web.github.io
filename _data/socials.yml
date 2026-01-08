@@ -15,7 +15,7 @@
 #email: anshulsingh2316@gmail.com # your email address
 # facebook_id: # your facebook id
 # flickr_id: # your flickr id
-# github_username: # your GitHub user name
+#github_username: anshulsingh-web
 # gitlab_username: # your GitLab user name
 # hal_id: # your HAL id (https://hal.science/)
 # ieee_id: # your ieeexplore.ieee.org/author/id
@@ -57,18 +57,18 @@
   #title: Linkedin
   #url: https://www.linkedin.com/in/anshul-singh-96864031b
 custom_social:
-  - title: Email
-    url: mailto:anshulsingh2316@gmail.com
-    logo: https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg
+  title: Email
+  url: mailto:anshulsingh2316@gmail.com
+  logo: https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg
 
-  - title: LinkedIn
-    url: https://www.linkedin.com/in/anshul-singh-96864031b
-    logo: https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg
+  title: LinkedIn
+  url: https://www.linkedin.com/in/anshul-singh-96864031b
+  logo: https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg
 
-  - title: ORCID
-    url: https://orcid.org/0009-0004-1175-5772
-    logo: https://upload.wikimedia.org/wikipedia/commons/0/06/ORCID_iD.svg
+  title: ORCID
+  url: https://orcid.org/0009-0004-1175-5772
+  logo: https://upload.wikimedia.org/wikipedia/commons/0/06/ORCID_iD.svg
     
-  - title: GitHub
-    url: https://github.com/anshulsingh-web
-    logo: https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg
+  title: GitHub
+  url: https://github.com/anshulsingh-web
+  logo: https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg
