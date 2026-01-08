@@ -44,15 +44,15 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-",
+            },{id: "post-the-geometry-of-uncertainty-what-missing-data-teaches-us-about-truth",
         
-          title: "",
+          title: "The Geometry of Uncertainty: What Missing Data Teaches Us About Truth",
         
-        description: "",
+        description: "A reflection on Middle Censoring, Bayesian priors and the philosophical weight of the unobserved",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/2026-01-08-uncertainty-structure/";
+            window.location.href = "/blog/2026/uncertainty-structure/";
           
         },
       },{id: "post-a-post-with-plotly-js",
