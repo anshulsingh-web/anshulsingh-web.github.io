@@ -473,6 +473,27 @@ ninja.data = [{
         title: 'Custom_social',
         section: 'Socials',
         handler: () => {
+          window.open("mailto:anshulsingh2316@gmail.com", "_blank");
+        },
+      },{
+        id: 'social-custom_social1',
+        title: 'Custom_social1',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/anshul-singh-96864031b", "_blank");
+        },
+      },{
+        id: 'social-custom_social2',
+        title: 'Custom_social2',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0009-0004-1175-5772", "_blank");
+        },
+      },{
+        id: 'social-custom_social3',
+        title: 'Custom_social3',
+        section: 'Socials',
+        handler: () => {
           window.open("https://github.com/anshulsingh-web", "_blank");
         },
       },{
