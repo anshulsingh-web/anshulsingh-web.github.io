@@ -27,12 +27,31 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-outline.scss"
 ;
 
-// 2. APPLY THE FONT HERE (Must be at the very bottom)
-body, p, h1, h2, h3, h4, h5, h6, .post-title, .post-description, li {
+// 2. APPLY THE FONT AND SIZE HERE (Must be at the very bottom)
+body, p, li, div {
   font-family: 'EB Garamond', serif !important;
+  font-size: 19px !important;       /* <--- This makes the text bigger */
+  line-height: 1.6 !important;      /* <--- This adds breathing room between lines */
 }
 
-// Keep code blocks as monospace (for your R/Python code)
+/* Headers usually need to be huge to look good in Garamond */
+h1, .post-title {
+  font-family: 'EB Garamond', serif !important;
+  font-size: 36px !important;
+}
+
+h2 {
+  font-family: 'EB Garamond', serif !important;
+  font-size: 28px !important;
+}
+
+h3, h4 {
+  font-family: 'EB Garamond', serif !important;
+  font-size: 24px !important;
+}
+
+// Keep code blocks as monospace
 code, pre, .highlight {
   font-family: 'Courier New', monospace !important;
+  font-size: 16px !important;       /* Keep code slightly smaller */
 }
