@@ -469,18 +469,11 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%61%6E%73%68%75%6C%73%69%6E%67%68%32%33%31%36@%67%6D%61%69%6C.%63%6F%6D", "_blank");
-        },
-      },{
         id: 'social-custom_social',
         title: 'Custom_social',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/anshul-singh-96864031b", "_blank");
+          window.open("", "_blank");
         },
       },{
       id: 'light-theme',
