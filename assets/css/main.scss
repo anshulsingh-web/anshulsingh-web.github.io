@@ -3,6 +3,9 @@
 ---
 @charset "utf-8";
 
+// 1. IMPORT THE FONT HERE (Academic/Math Font)
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400&display=swap');
+
 // Dimensions
 $max-content-width: {{ site.max_width }};
 
@@ -23,3 +26,13 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+// 2. APPLY THE FONT HERE (Must be at the very bottom)
+body, p, h1, h2, h3, h4, h5, h6, .post-title, .post-description, li {
+  font-family: 'EB Garamond', serif !important;
+}
+
+// Keep code blocks as monospace (for your R/Python code)
+code, pre, .highlight {
+  font-family: 'Courier New', monospace !important;
+}
