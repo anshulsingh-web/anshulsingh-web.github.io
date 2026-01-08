@@ -60,15 +60,15 @@ custom_social:
   title: Email
   url: mailto:anshulsingh2316@gmail.com
   logo: https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg
-
+custom_social1:
   title: LinkedIn
   url: https://www.linkedin.com/in/anshul-singh-96864031b
   logo: https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg
-
+custom_social2:
   title: ORCID
   url: https://orcid.org/0009-0004-1175-5772
   logo: https://upload.wikimedia.org/wikipedia/commons/0/06/ORCID_iD.svg
-    
+custom_social3:
   title: GitHub
   url: https://github.com/anshulsingh-web
   logo: https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg
