@@ -473,7 +473,7 @@ ninja.data = [{
         title: 'Custom_social',
         section: 'Socials',
         handler: () => {
-          window.open("", "_blank");
+          window.open("https://github.com/anshulsingh-web", "_blank");
         },
       },{
       id: 'light-theme',
