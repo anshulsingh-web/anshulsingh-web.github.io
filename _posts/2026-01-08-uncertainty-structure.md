@@ -1,31 +1,31 @@
 ---
 layout: post
 title: "The Geometry of Uncertainty: What Missing Data Teaches Us About Truth"
-date: 2026-01-08 
-description: *A reflection on Middle Censoring, Bayesian priors and the philosophical weight of the unobserved*.
-tags: Statistics philosophy research
-categories: thoughts
+date: 2026-01-08 15:00:00
+description: A reflection on Middle Censoring, Bayesian priors and the philosophical weight of the unobserved
+tags: 
+  Statistics 
+  Philosophy 
+  Research
+categories: 
+  thoughts
 featured: true
 ---
 
 We often assume that knowledge is defined by what we can see, measure and record. In mathematics, we find comfort in the defined: the closed set, the converged sequence, the observed variable.
-
 But in my recent research work on *Reliability Theory* and *Middle Censoring*, I have learned that the most critical information often lies in what is *absent*.
 
 ### The Paradox of Censoring
 
-In statistical analysis, we often deal with "censored" data—instances where we know a component started functioning and perhaps know when the experiment ended, but the actual moment of failure is lost to us. We have the *start* and the *end*, but the *event* is hidden in the interval.
-
+In statistical analysis, we often deal with "censored" data instances where we know a component started functioning and perhaps know when the experiment ended, but the actual moment of failure is lost to us. We have the *start* and the *end*, but the *event* is hidden in the interval.
 A novice might throw this data away, viewing it as "incomplete." A statistician knows better. We know that the silence is not empty; it is informative. The fact that the component *survived* up to a certain point tells us something profound about its strength, even if we never saw it break.
 
 ### Bayesian Beliefs in a Noisy World
 
 This mathematical framework mirrors a deeper philosophical reality. We rarely have "perfect data" in life. We navigate careers, relationships and scientific discovery with middle censored or missing information. We see the inputs and the outputs, but the internal mechanisms often remain a "black box."
-
 This is where the **Bayesian** perspective becomes a philosophy of life, not just a method of inference. It teaches us to start with a *prior*—a belief based on past experience and update it as we encounter the world. It is a mathematical admission of humility: we never know the absolute truth, we only refine our approximation of it.
 
 ### Conclusion
 
 As I worked on formulating methodologies for these kind of problems, I am reminded that our goal is not to eliminate uncertainty that is impossible. Our goal is to map the geometry of that uncertainty.
-
 To be a statistician is to be comfortable in the dark, using the faint signals of probability to construct a map of a world we can never fully see.
