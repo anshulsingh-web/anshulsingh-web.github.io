@@ -29,18 +29,18 @@ $max-content-width: {{ site.max_width }};
 // 2. APPLY DOMINE FONT (Must be at the very bottom)
 body, p, li, div {
   font-family: 'Domine', serif !important;
-  font-size: 17px !important;       /* Reduced from 19px because Domine is naturally big */
+  font-size: 17px !important;
   line-height: 1.6 !important;
-  color: #2c2c2c !important;        /* Slightly softer black for better reading */
+  /* I removed the 'color' line so it works in Dark Mode automatically! */
 }
 
-/* Bold Settings - Domine has a great natural bold (700) */
+/* Bold Settings */
 strong, b {
   font-family: 'Domine', serif !important;
-  font-weight: 700 !important;      /* Use standard bold, 800 is not needed for Domine */
+  font-weight: 700 !important;
 }
 
-/* Headers - Domine looks fantastic in headers */
+/* Headers */
 h1, .post-title {
   font-family: 'Domine', serif !important;
   font-weight: 700 !important;
