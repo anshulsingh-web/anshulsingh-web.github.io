@@ -78,7 +78,7 @@ pagination:
   <div style="text-align: center; margin-top: 40px; color: #777;">
     <i class="fa-solid fa-comments fa-2x"></i>
     <br><br>
-    <p>I am working on more articles related to statistical theory and philosophy.</p>
+    <p>I am working on more articles related to mathematical/statistical theory and philosophy.</p>
     <p>I am always open to suggestions and deep discussions on these topics. 😃</p>
   </div>
 
