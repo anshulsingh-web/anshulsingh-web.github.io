@@ -73,22 +73,4 @@ footer, footer p, footer div, footer a, footer li {
 /* FORCE VINTAGE PAPER BACKGROUND (FIXED)   */
 /* ========================================= */
 
-/* 1. Apply to HTML, Body, and the Main Containers */
-html, body, .container, .wrapper, main, header, footer {
-  background-color: #fdfbf7 !important; /* "Warm Parchment" color */
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.02) 1px, transparent 1px) !important; /* Subtle ruled lines */
-  background-size: 100% 30px !important; /* Distance between lines */
-}
 
-/* 2. Fix the Text Color so it is visible on paper */
-body, p, h1, h2, h3, h4, h5, h6, li, div, span, a {
-  color: #2e2e2e !important; /* Dark Grey (Soft Ink color) */
-}
-
-/* 3. Disable Dark Mode automatically so it doesn't turn black again */
-@media (prefers-color-scheme: dark) {
-  html, body, .container, main {
-    background-color: #fdfbf7 !important; /* Force Parchment even if system is Dark */
-    color: #2e2e2e !important; /* Force Dark Text */
-  }
-}
