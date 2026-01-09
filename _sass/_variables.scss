@@ -50,3 +50,13 @@ $back-to-top-right: 30px;
 $back-to-top-diameter: 40px;
 $back-to-top-height: $back-to-top-diameter;
 $back-to-top-width: $back-to-top-diameter;
+/* CUSTOM ACCENT COLOR (Deep Crimson) */
+a, a:hover, .post-title a:hover {
+  color: #a81c1c !important; /* Change this hex code to whatever you like */
+}
+
+/* The little underline on the Navigation Bar */
+header nav .nav-item.active .nav-link {
+  border-bottom-color: #a81c1c !important;
+  font-weight: 700 !important; /* Make the active tab bold */
+}
