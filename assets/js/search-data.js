@@ -41,6 +41,17 @@ ninja.data = [{
             window.location.href = "/blog/2026/uncertainty-structure/";
           
         },
+      },{id: "post-the-geometry-of-silence-five-days-on-the-kedarkantha-trek",
+        
+          title: "The Geometry of Silence: Five Days on the Kedarkantha Trek",
+        
+        description: "A December summit push without internet, viewed through the lens of math, stats and existential philosophy.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/kedarkantha-trek/";
+          
+        },
       },{
         id: 'social-Contact email',
         title: 'Contact email',
