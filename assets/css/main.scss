@@ -69,3 +69,17 @@ footer, footer p, footer div, footer a, footer li {
   font-size: 13px !important;   /* Much smaller than the main text */
   line-height: 1.2 !important;  /* Tighter spacing */
 }
+/* VINTAGE PAPER TEXTURE */
+body {
+  /* A very subtle grain texture */
+  background-image: url("https://www.transparenttextures.com/patterns/noise-lines.png");
+  background-color: #faf9f6; /* "Off-white" or "Eggshell" color */
+}
+
+/* Fix for Dark Mode: Turn off the texture so it stays clean black */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-image: none;
+    background-color: #121212; /* Deep matte black */
+  }
+}
