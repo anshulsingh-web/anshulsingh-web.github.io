@@ -22,7 +22,7 @@ Every step is a real time calculation of energy expenditure versus elevation gai
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/trek_forest.jpg" title="The trail" class="img-fluid rounded z-depth-1" %}
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/trek_forest.jpg" alt="The trail">
     </div>
 </div>
 <div class="caption">
@@ -44,7 +44,7 @@ It was a "Starry Night" view, but stripped of Van Gogh's swirling impressionism 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/trek_night.jpg" title="Starry night" class="img-fluid rounded z-depth-1" %}
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/trek_night.jpg" alt="Starry night">
     </div>
 </div>
 <div class="caption">
@@ -62,7 +62,7 @@ Camus might call it absurd. But in the moment, it felt deeply existential. There
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/trek_summit.jpg" title="The summit" class="img-fluid rounded z-depth-1" %}
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/trek_summit.jpg" alt="The summit">
     </div>
 </div>
 <div class="caption">
