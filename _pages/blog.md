@@ -15,7 +15,15 @@ pagination:
     before: 1
     after: 3
 ---
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-40C1ZZ3Q56"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-40C1ZZ3Q56');
+</script>
 <div class="post">
 
   <div class="header-bar">
