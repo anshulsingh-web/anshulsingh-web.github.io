@@ -21,7 +21,6 @@ pagination:
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-40C1ZZ3Q56');
 </script>
 <div class="post">
