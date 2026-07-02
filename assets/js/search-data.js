@@ -81,6 +81,13 @@ ninja.data = [{
           window.open("https://github.com/anshulsingh-web", "_blank");
         },
       },{
+        id: 'social-ResearchGate Profile',
+        title: 'Researchgate profile',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.researchgate.net/profile/Anshul-Singh-35?ev=hdr_xprf", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
